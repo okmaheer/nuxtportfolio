@@ -9,17 +9,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Diesel Repair',
-                img: require('@/assets/images/diesel-repair-1.png'),
+                img: '/images/diesel-repair-1.png',
             },
             {
                 id: 2,
                 title: 'Diesel Repair',
-                img: require('@/assets/images/diesel-repair-2.png'),
+                img: '/images/diesel-repair-2.png',
             },
             {
                 id: 3,
                 title: 'Diesel Repair',
-                img: require('@/assets/images/diesel-repair-3.png'),
+                img: '/images/diesel-repair-3.png',
             },
         ],
         projectInfo: {
@@ -149,17 +149,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Diesel Parts',
-                img: require('@/assets/images/diesel-parts-1.png'),
+                img: '/images/diesel-parts-1.png',
             },
             {
                 id: 2,
                 title: 'Diesel Parts',
-                img: require('@/assets/images/diesel-parts-2.png'),
+                img: '/images/diesel-parts-2.png',
             },
             {
                 id: 3,
                 title: 'Diesel Parts',
-                img: require('@/assets/images/diesel-parts-3.png'),
+                img: '/images/diesel-parts-3.png',
             },
         ],
         projectInfo: {
@@ -289,17 +289,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Open Bazar',
-                img: require('@/assets/images/open-bazar-1.png'),
+                img: '/images/open-bazar-1.png',
             },
             {
                 id: 2,
                 title: 'Open Bazar',
-                img: require('@/assets/images/open-bazar-2.png'),
+                img: '/images/open-bazar-2.png',
             },
             {
                 id: 3,
                 title: 'Open Bazar',
-                img: require('@/assets/images/open-bazar-3.png'),
+                img: '/images/open-bazar-3.png',
             },
         ],
         projectInfo: {
@@ -416,17 +416,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'ASPCA',
-                img: require('@/assets/images/aspca-1.png'),
+                img: '/images/aspca-1.png',
             },
             {
                 id: 2,
                 title: 'ASPCA',
-                img: require('@/assets/images/aspca-2.png'),
+                img: '/images/aspca-2.png',
             },
             {
                 id: 3,
                 title: 'ASPCA',
-                img: require('@/assets/images/aspca-3.png'),
+                img: '/images/aspca-3.png',
             },
         ],
         projectInfo: {
@@ -555,17 +555,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Talent Hunter',
-                img: require('@/assets/images/talent-hunter-1.png'),
+                img: '/images/talent-hunter-1.png',
             },
             {
                 id: 2,
                 title: 'Talent Hunter',
-                img: require('@/assets/images/talent-hunter-2.png'),
+                img: '/images/talent-hunter-2.png',
             },
             {
                 id: 3,
                 title: 'Talent Hunter',
-                img: require('@/assets/images/talent-hunter-3.png'),
+                img: '/images/talent-hunter-3.png',
             },
         ],
         projectInfo: {
@@ -690,17 +690,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Portfolio Site',
-                img: require('@/assets/images/portfolio-1.png'),
+                img: '/images/portfolio-1.png',
             },
             {
                 id: 2,
                 title: 'Portfolio Site',
-                img: require('@/assets/images/portfolio-2.png'),
+                img: '/images/portfolio-2.png',
             },
             {
                 id: 3,
                 title: 'Portfolio Site',
-                img: require('@/assets/images/portfolio-3.png'),
+                img: '/images/portfolio-3.png',
             },
         ],
         projectInfo: {
@@ -813,17 +813,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Account ERP',
-                img: require('@/assets/images/account-1.png'),
+                img: '/images/account-1.png',
             },
             {
                 id: 2,
                 title: 'Account ERP',
-                img: require('@/assets/images/account-2.png'),
+                img: '/images/account-2.png',
             },
             {
                 id: 3,
                 title: 'Account ERP',
-                img: require('@/assets/images/account-3.png'),
+                img: '/images/account-3.png',
             },
         ],
         projectInfo: {

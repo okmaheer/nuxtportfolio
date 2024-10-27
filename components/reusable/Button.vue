@@ -1,16 +1,16 @@
-<script>
-export default {
-	props: ['title'],
-	data: () => {
-		return {
-			//
-		};
-	},
-};
+<script setup>
+
+// Define props
+const props = defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+});
 </script>
 
 <template>
-	<button>{{ title }}</button>
+  <button>{{ props.title }}</button>
 </template>
 
 <style lang="scss" scoped></style>
