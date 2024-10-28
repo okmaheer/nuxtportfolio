@@ -9,7 +9,7 @@ const socials = ref(socialLinks);
 
 // Setup Feather icons for client-side only
 const updateIcons = () => {
-  if (import.meta.client) {
+  if (process.client) {
     feather.replace();
   }
 };

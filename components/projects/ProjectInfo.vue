@@ -24,7 +24,7 @@ const props = defineProps({
 
 // Apply feather icons on client-side only
 const replaceIcons = () => {
-  if (import.meta.client) feather.replace();
+  if (process.client) feather.replace();
 };
 
 onMounted(replaceIcons);

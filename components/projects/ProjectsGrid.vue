@@ -36,7 +36,7 @@ function filterProjectsBySearch() {
 
 // Replace icons on client side
 onMounted(() => {
-  if (import.meta.client) {
+  if (process.client) {
     feather.replace();
   }
 });
@@ -44,7 +44,7 @@ onMounted(() => {
 
 <template>
   <!-- Projects grid -->
-  <section class="pt-10 sm:pt-14">
+  <section class="">
     <!-- Projects grid title -->
     <div class="text-center">
       <p

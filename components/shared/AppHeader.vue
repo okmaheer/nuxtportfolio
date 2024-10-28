@@ -17,13 +17,13 @@ const categories = ref([
 ]);
 
 // Fetch theme from local storage on client-side
-if (import.meta.client) {
+if (process.client) {
   theme.value = localStorage.getItem('theme') || 'light';
 }
 
 // Feather icons setup
 const updateIcons = () => {
-  if (import.meta.client) feather.replace();
+  if (process.client) feather.replace();
 };
 
 // Show/hide modal and lock/unlock body scrolling
@@ -35,7 +35,7 @@ const showModal = () => {
 // Update theme and store in local storage
 const updateTheme = (newTheme) => {
   theme.value = newTheme;
-  if (import.meta.client) {
+  if (process.client) {
     localStorage.setItem('theme', newTheme);
   }
 };

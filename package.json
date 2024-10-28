@@ -12,6 +12,7 @@
   "dependencies": {
     "feather-icons": "^4.29.2",
     "nuxt": "^3.13.2",
+    "three": "^0.169.0",
     "vue": "latest",
     "vue-backtotop": "^1.6.1",
     "vue-router": "latest"

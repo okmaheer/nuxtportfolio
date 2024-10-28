@@ -3,7 +3,7 @@ import { ref } from 'vue';
 
 // Reactive state for the footer data
 const copyrightDate = ref(new Date().getFullYear());
-const projectName = 'Vue.js & CSS Portfolio';
+const projectName = 'Nuxt js & Node js Portfolio';
 const author = 'Maheer Akbar';
 </script>
 

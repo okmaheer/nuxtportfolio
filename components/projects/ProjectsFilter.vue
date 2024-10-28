@@ -9,7 +9,8 @@ const props = defineProps({
   },
   selectOptions: {
     type: Array,
-    default: () => ['Laravel / Vue js', 'Laravel', 'Vue js'],
+    default: () => ['Laravel', 'Vue js', 'React js','Nuxt js','Nodes js','Wordpress'
+    ],
   },
 });
 

@@ -2,9 +2,267 @@
 // Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
 
 const projectsData = [
-	{
+    {
         id: 1,
-		project_id: 1,
+        project_id: 1,
+        projectImages: [
+            {
+                id: 1,
+                title: 'POS System',
+                img: '/images/pos-1.png',
+            },
+            {
+                id: 2,
+                title: 'POS System',
+                img: '/images/pos-2.png',
+            },
+            {
+                id: 3,
+                title: 'POS System',
+                img: '/images/pos-3.png',
+            },
+        ],
+        projectInfo: {
+            clientHeading: 'About Client',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'Confidential',
+                },
+                {
+                    id: 2,
+                    title: 'Services',
+                    details: 'Laravel / React.js / PWA',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://infypos.infyom.com/#/app/dashboard',
+                },
+                {
+                    id: 4,
+                    title: 'Phone',
+                    details: 'Not Available',
+                },
+            ],
+            projectCredentialsTitle: 'Project Credentials',
+            projectCredentialsInfo: [
+                {
+                    id: 1,
+                    title: 'Link',
+                    details: 'https://infypos.infyom.com/#/app/dashboard',
+                },
+                {
+                    id: 2,
+                    title: 'Email',
+                    details: 'admin@infy-pos.com',
+                },
+                {
+                    id: 3,
+                    title: 'Password',
+                    details: '123456',
+                },
+            ],
+            objectivesHeading: 'Objective',
+            objectivesDetails:
+                'The primary objective was to build an intuitive and efficient POS system using Laravel and React.js to streamline retail operations. Additionally, transforming the application into a Progressive Web App (PWA) enabled offline accessibility and installation on devices for an enhanced user experience. The solution also aimed to integrate robust security measures and scalable architecture to support a wide user base and secure transactions.',
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        'HTML',
+                        'CSS',
+                        'JavaScript',
+                        'React.js',
+                        'Laravel Framework',
+                        'Progressive Web App (PWA)',
+                    ],
+                },
+            ],
+            projectDetailsHeading: 'Challenge',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Creating a seamless POS experience with real-time data synchronization across online and offline modes was a key challenge. It required extensive testing and optimization to ensure data integrity under varying network conditions.',
+                },
+                {
+                    id: 2,
+                    details:
+                        'Integrating secure payment gateways and implementing a PWA presented challenges in maintaining app responsiveness and meeting stringent security requirements. This involved rigorous development to ensure secure and swift transactions while maintaining a smooth user experience.',
+                },
+                {
+                    id: 3,
+                    details:
+                        'Balancing a user-friendly design with complex backend functionalities was critical. Collaborating with designers and backend developers, I focused on creating a minimalistic interface that simplified daily operations for retail users while handling complex workflows behind the scenes.',
+                },
+            ],
+            socialSharingsHeading: 'Share This',
+            socialSharings: [
+                {
+                    id: 1,
+                    name: 'Twitter',
+                    icon: 'twitter',
+                    url: 'https://twitter.com/',
+                },
+                {
+                    id: 2,
+                    name: 'Instagram',
+                    icon: 'instagram',
+                    url: 'https://instagram.com/',
+                },
+                {
+                    id: 3,
+                    name: 'Facebook',
+                    icon: 'facebook',
+                    url: 'https://facebook.com/',
+                },
+                {
+                    id: 4,
+                    name: 'LinkedIn',
+                    icon: 'linkedin',
+                    url: 'https://linkedin.com/',
+                },
+                {
+                    id: 5,
+                    name: 'YouTube',
+                    icon: 'youtube',
+                    url: 'https://www.youtube.com/',
+                },
+            ],
+        },
+    },
+    {
+        "id": 2,
+        "project_id": 2,
+        "projectImages": [
+            {
+                "id": 1,
+                "title": "Project Showcase",
+                "img": "/images/port-1.png"
+            },
+            {
+                "id": 2,
+                "title": "Project Showcase",
+                "img": "/images/port-2.png"
+            },
+            {
+                "id": 3,
+                "title": "Project Showcase",
+                "img": "/images/port-3.png"
+            }
+        ],
+        "projectInfo": {
+            "clientHeading": "About Client",
+            "companyInfos": [
+                {
+                    "id": 1,
+                    "title": "Client",
+                    "details": "Confidential"
+                },
+                {
+                    "id": 2,
+                    "title": "Services",
+                    "details": "Node.js / Nuxt.js / PWA Development"
+                },
+                {
+                    "id": 3,
+                    "title": "Website",
+                    "details": "https://maheer.dev"
+                },
+                {
+                    "id": 4,
+                    "title": "Phone",
+                    "details": "Confidential "
+                }
+            ],
+            "projectCredentialsTitle": "Project Credentials",
+            "projectCredentialsInfo": [
+                {
+                    "id": 1,
+                    "title": "Link",
+                    "details": "https://maheer.dev"
+                },
+                {
+                    "id": 2,
+                    "title": "Credentials",
+                    "details": "Confidential "
+                }
+            ],
+            "objectivesHeading": "Objective",
+            "objectivesDetails": "Develop a Progressive Web Application (PWA) for a robust, high-performance, and responsive portfolio, showcasing full-stack development skills and proficiency in modern web technologies.",
+            "technologies": [
+                {
+                    "title": "Tools & Technologies",
+                    "techs": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "Node.js",
+                        "Nuxt.js",
+                        "PWA",
+                        "MongoDB"
+                    ]
+                }
+            ],
+            "projectDetailsHeading": "Challenge",
+            "projectDetails": [
+                {
+                    "id": 1,
+                    "details": "The primary goal was to build a portfolio that is performant, accessible, and adaptable across different devices as a Progressive Web Application (PWA). The project required in-depth knowledge of Nuxt.js, Node.js, and other front-end technologies to ensure optimized user experiences and seamless interactions."
+                },
+                {
+                    "id": 2,
+                    "details": "One key feature involved developing an offline-first experience, leveraging service workers and caching strategies to ensure smooth operation even when the network was unavailable. This required a comprehensive understanding of PWA principles and API integrations."
+                },
+                {
+                    "id": 3,
+                    "details": "The project also provided an opportunity to enhance my skills in designing scalable backends with Node.js and MongoDB, focusing on secure data handling and efficient user experience. Through collaboration with other professionals, I further refined my problem-solving and development workflows."
+                },
+                {
+                    "id": 4,
+                    "details": "This project was a testament to my ability to work independently under confidentiality constraints, prioritize functionality, and deliver an application that meets high standards in both performance and security."
+                }
+            ],
+            "socialSharingsHeading": "Share This",
+            "socialSharings": [
+                {
+                    "id": 1,
+                    "name": "Twitter",
+                    "icon": "twitter",
+                    "url": "https://twitter.com/"
+                },
+                {
+                    "id": 2,
+                    "name": "Instagram",
+                    "icon": "instagram",
+                    "url": "https://instagram.com/"
+                },
+                {
+                    "id": 3,
+                    "name": "Facebook",
+                    "icon": "facebook",
+                    "url": "https://facebook.com/"
+                },
+                {
+                    "id": 4,
+                    "name": "LinkedIn",
+                    "icon": "linkedin",
+                    "url": "https://linkedin.com/"
+                },
+                {
+                    "id": 5,
+                    "name": "Youtube",
+                    "icon": "youtube",
+                    "url": "https://www.youtube.com/"
+                }
+            ]
+        }
+    },
+	{
+        id: 3,
+		project_id: 3,
 		projectImages: [
             {
                 id: 1,
@@ -143,8 +401,8 @@ const projectsData = [
 	
 	},
     {
-        id: 2,
-		project_id: 2,
+        id: 4,
+		project_id: 4,
 		projectImages: [
             {
                 id: 1,
@@ -283,8 +541,8 @@ const projectsData = [
 	
 	},
     {
-        id: 3,
-		project_id: 3,
+        id: 5,
+		project_id: 5,
 		projectImages: [
             {
                 id: 1,
@@ -410,8 +668,8 @@ const projectsData = [
 	
 	},
     {
-        id: 4,
-		project_id: 4,
+        id: 6,
+		project_id: 6,
 		projectImages: [
             {
                 id: 1,
@@ -549,8 +807,8 @@ const projectsData = [
 	
 	},
     {
-        id: 5,
-		project_id: 5,
+        id: 7,
+		project_id: 7,
 		projectImages: [
             {
                 id: 1,
@@ -684,8 +942,8 @@ const projectsData = [
 	
 	},
     {
-        id: 6,
-		project_id: 6,
+        id: 8,
+		project_id: 8,
 		projectImages: [
             {
                 id: 1,
@@ -807,8 +1065,8 @@ const projectsData = [
 	
 	},
     {
-        id: 7,
-		project_id: 7,
+        id: 9,
+		project_id: 9,
 		projectImages: [
             {
                 id: 1,
@@ -944,6 +1202,9 @@ const projectsData = [
         },
 	
 	},
+   
+    
+    
 ];
 
 export default projectsData;
