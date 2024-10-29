@@ -9,17 +9,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'POS System',
-                img: '/images/pos-1.png',
+                img: '/images/pos-1.jpg',
             },
             {
                 id: 2,
                 title: 'POS System',
-                img: '/images/pos-2.png',
+                img: '/images/pos-2.jpg',
             },
             {
                 id: 3,
                 title: 'POS System',
-                img: '/images/pos-3.png',
+                img: '/images/pos-3.jpg',
             },
         ],
         projectInfo: {
@@ -140,17 +140,17 @@ const projectsData = [
             {
                 "id": 1,
                 "title": "Project Showcase",
-                "img": "/images/port-1.png"
+                "img": "/images/port-1.jpg"
             },
             {
                 "id": 2,
                 "title": "Project Showcase",
-                "img": "/images/port-2.png"
+                "img": "/images/port-2.jpg"
             },
             {
                 "id": 3,
                 "title": "Project Showcase",
-                "img": "/images/port-3.png"
+                "img": "/images/port-3.jpg"
             }
         ],
         "projectInfo": {
@@ -267,17 +267,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Diesel Repair',
-                img: '/images/diesel-repair-1.png',
+                img: '/images/diesel-repair-1.jpg',
             },
             {
                 id: 2,
                 title: 'Diesel Repair',
-                img: '/images/diesel-repair-2.png',
+                img: '/images/diesel-repair-2.jpg',
             },
             {
                 id: 3,
                 title: 'Diesel Repair',
-                img: '/images/diesel-repair-3.png',
+                img: '/images/diesel-repair-3.jpg',
             },
         ],
         projectInfo: {
@@ -407,17 +407,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Diesel Parts',
-                img: '/images/diesel-parts-1.png',
+                img: '/images/diesel-parts-1.jpg',
             },
             {
                 id: 2,
                 title: 'Diesel Parts',
-                img: '/images/diesel-parts-2.png',
+                img: '/images/diesel-parts-2.jpg',
             },
             {
                 id: 3,
                 title: 'Diesel Parts',
-                img: '/images/diesel-parts-3.png',
+                img: '/images/diesel-parts-3.jpg',
             },
         ],
         projectInfo: {
@@ -547,17 +547,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Open Bazar',
-                img: '/images/open-bazar-1.png',
+                img: '/images/open-bazar-1.jpg',
             },
             {
                 id: 2,
                 title: 'Open Bazar',
-                img: '/images/open-bazar-2.png',
+                img: '/images/open-bazar-2.jpg',
             },
             {
                 id: 3,
                 title: 'Open Bazar',
-                img: '/images/open-bazar-3.png',
+                img: '/images/open-bazar-3.jpg',
             },
         ],
         projectInfo: {
@@ -674,17 +674,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'ASPCA',
-                img: '/images/aspca-1.png',
+                img: '/images/aspca-1.jpg',
             },
             {
                 id: 2,
                 title: 'ASPCA',
-                img: '/images/aspca-2.png',
+                img: '/images/aspca-2.jpg',
             },
             {
                 id: 3,
                 title: 'ASPCA',
-                img: '/images/aspca-3.png',
+                img: '/images/aspca-3.jpg',
             },
         ],
         projectInfo: {
@@ -813,17 +813,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Talent Hunter',
-                img: '/images/talent-hunter-1.png',
+                img: '/images/talent-hunter-1.jpg',
             },
             {
                 id: 2,
                 title: 'Talent Hunter',
-                img: '/images/talent-hunter-2.png',
+                img: '/images/talent-hunter-2.jpg',
             },
             {
                 id: 3,
                 title: 'Talent Hunter',
-                img: '/images/talent-hunter-3.png',
+                img: '/images/talent-hunter-3.jpg',
             },
         ],
         projectInfo: {
@@ -948,17 +948,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Portfolio Site',
-                img: '/images/portfolio-1.png',
+                img: '/images/portfolio-1.jpg',
             },
             {
                 id: 2,
                 title: 'Portfolio Site',
-                img: '/images/portfolio-2.png',
+                img: '/images/portfolio-2.jpg',
             },
             {
                 id: 3,
                 title: 'Portfolio Site',
-                img: '/images/portfolio-3.png',
+                img: '/images/portfolio-3.jpg',
             },
         ],
         projectInfo: {
@@ -1071,17 +1071,17 @@ const projectsData = [
             {
                 id: 1,
                 title: 'Account ERP',
-                img: '/images/account-1.png',
+                img: '/images/account-1.jpg',
             },
             {
                 id: 2,
                 title: 'Account ERP',
-                img: '/images/account-2.png',
+                img: '/images/account-2.jpg',
             },
             {
                 id: 3,
                 title: 'Account ERP',
-                img: '/images/account-3.png',
+                img: '/images/account-3.jpg',
             },
         ],
         projectInfo: {

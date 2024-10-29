@@ -7,7 +7,7 @@ const props = defineProps({
     required: true
   }
 });
-
+console.log(props.project);
 const skills = [
   { name: "Laravel", icon: "laravel.svg" },
   { name: "React", icon: "react.svg" },
@@ -19,7 +19,8 @@ const skills = [
 
 <template>
   <NuxtLink
-    :to="`/projects/project/${project.id}`"
+    :to=" project.orginal ? project.orginal : `/projects/project/${project.id}`"
+    :target="project.orginal ? '_blank' : ''"
     class="relative rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 cursor-pointer perspective"
     aria-label="Single Project"
   >

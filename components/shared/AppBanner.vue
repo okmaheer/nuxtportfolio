@@ -72,7 +72,7 @@ onUpdated(replaceIcons);
         class="relative group flex flex-col items-center space-y-3 cursor-pointer transition-transform transform hover:scale-110"
       >
         <!-- Icon with Pulse and Spin Animation on Hover -->
-        <div class="w-16 h-16 p-3 rounded-full bg-gray-100 dark:bg-gray-700 transition-all duration-300 group-hover:animate-spin-slow group-hover:animate-pulse">
+        <div class="w-16 h-16 p-1 rounded-full  dark:bg-gray-700 transition-all duration-300 group-hover:animate-spin-slow group-hover:animate-pulse">
           <img :src="`/images/${skill.icon}`" :alt="skill.name" class="w-full h-full object-contain" />
         </div>
 
